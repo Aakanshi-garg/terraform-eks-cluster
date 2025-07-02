@@ -1,4 +1,4 @@
-# Deploying AWS EKS cluster with Terraform
+# Deploying EKS cluster with Terraform
 Infrastructure-as-Code (IaC) project for deploying a secure and scalable Amazon EKS (Elastic Kubernetes Service) cluster using Terraform. This setup provisions VPC networking,  EKS control plane, and worker nodes across multiple availability zones — fully automated and customizable.
 
 ## Project Overview
@@ -39,7 +39,7 @@ terraform-eks-cluster/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/terraform-eks-cluster.git
@@ -74,9 +74,12 @@ terraform apply
 You can see below that all instance , eks cluster  are running or created , which is created through Terraform :
 
 1. instances
+   
 ![cap3](https://github.com/user-attachments/assets/48db44e4-dc93-44aa-88c5-5765808c4b6e)
 
-2. AWS EKS cluster 
+
+3. EKS cluster
+   
 ![cap2](https://github.com/user-attachments/assets/cc40628b-79ac-4962-9b0c-87bea9085b56)
 
 ## 🧼 Cleanup
@@ -84,3 +87,10 @@ To destroy all infrastructure created:
 ```bash
 terraform destroy
 ```
+![Capture](https://github.com/user-attachments/assets/ac9937e1-49ff-44da-a33f-b58e89f0857b)
+
+
+
+
+
+
